@@ -1,0 +1,21 @@
+{
+  "extension": {
+    "sass": [
+      "_client-name-style-guide.scss",
+      "global/**/*",
+      "elements/**/*",
+      "components/**/*",
+      "layouts/**/*"
+    ],
+    "images": [
+      "**"
+    ],
+    "js": [
+      "**"
+    ],
+    "fonts": [
+      "**"
+    ],
+    "license": "CC BY-NC-SA"
+  }
+}

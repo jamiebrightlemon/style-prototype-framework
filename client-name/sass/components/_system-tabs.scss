@@ -1,0 +1,62 @@
+//////////////////////////////
+// System tabs Component
+//
+// The partial and folder structure for this component should be as follows:
+// _system-tabs.scss
+// system-tabs (folder)
+//   _mixins.scss
+//   _extends.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base component: @{component}
+//  - End styling block for base component:   {component}@
+//
+//  - Start styling block for specific component configuration: @{component--configuration}
+//  - End styling block for specific component configuration:   {component--configuration}@
+//////////////////////////////
+
+//@import 'pager/mixins';
+//@import 'pager/extends';
+
+//////////////////////////////
+// Having $output-selectors and $output-selectors--system-tabs set to `true` will output the CSS selectors for System tabs Component
+$output-selectors--system-tabs: true !default;
+@if $output-selectors and $output-selectors--system-tabs {
+//////////////////////////////
+
+//////////////////////////////
+// @{system-tabs}
+// Styling for Pager Component
+.tabs {
+  
+}
+// {system-tabs}@
+//////////////////////////////
+
+//////////////////////////////
+// @{system-tabs--primary}
+// Styling for Pager Component
+.tabs-primary {
+  
+}
+
+.tabs.primary {
+  
+}
+// {system-tabs--primary}@
+//////////////////////////////
+
+//////////////////////////////
+// @{system-tabs--secondary}
+// Styling for Pager Component
+.tabs-secondary {
+  
+}
+
+.tabs.secondary {
+  
+}
+// {system-tabs--secondary}@
+//////////////////////////////
+
+}
